@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text&display=swap');
+
+html {
+	background-color: #FFE4E1;
+}
+
+body {
+	font-family: 'Crimson', sans-serif;
+	margin: 0;
+	padding: 10px;
+	color: #800080; 
+}
+
+h2{
+	color: #FA8072;
+}
+
+footer {
+   padding: 5px;
+   color: black;
+   background-color: #BC8F8F;
+   text-align: center;
+   font-weight: bold;
+   font-size: 75%;
+}
+
+nav a{
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+	color: black;
+}
+
+nav a:hover{
+	font-weight: bold;
+}
+
+nav{
+	background-color: #D8BFD8;
+	padding: 5px;
+	position: sticky;
+	top: 0;
+	text-align: right;
+	border-radius: 10px;
+}
+
+nav li{
+	display: inline;
+	list-style-type: none;
+	margin-right: 20px;
+	background-color: #FFF5EE;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 75%;
+	font-weight: bold;
+}
+
+div#controls_bar{
+	padding: 10px;
+	overflow : auto;
+}
+
+div button{
+	display:inline;
+	margin: 0 10px 0 20px;
+	float: left;
+	
+}
+
+.jarak{
+	margin: 10px auto;
+	color:#FA8072;
+}
+
+div#player_box{
+	background-color : #DDBCFF; 
+	width:600px;
+	text-align: center;
+	font-size: 75%;
+	padding: 10px;
+	margin: 30px auto 10px 5px
+}
+
+div#player_boxx{
+	background-color : #DDBCFF; 
+	width:600px;
+	text-align: center;
+	font-size: 75%;
+	padding: 10px;
+	margin: 10px 5px auto 285px;
+}
+
+.desain{
+	float: left;
+	font-size: 75%;
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #FA8072;
+	font-weight: bold;
+}
+
+.profile header{
+	text-align: center;
+}
+
+.featured-image {
+	width: 120px;
+	height: 150px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.image {
+	width: 100%;
+	display: center;
+	text-align: justify;
+}
+
+.caps:first-letter {
+	 font-size: 200%;
+     font-weight: bold;
+     margin: 1px 2px 0 0;
+     
+}
+
+.profile img{
+	max-width: 200px;
+}
+
+.box{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.flex-container-column{
+	display: flex;
+	flex-direction: column;
+	
+	/* properti pendukung */
+	max-width: 3000px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.flex-container-row{
+	display: flex;
+}
+
+.button{
+	flex-basis: 25%;
+	
+	/*pendukung*/
+	font-size: 75%;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid black;
+	background: -webkit-linear-gradient(top, #d2d2d2, #ddd);
+	cursor: pointer;
+}
+
+.gambar{
+	flex-basis: 25%;
+	
+	/*pendukung*/
+	
+	float: left;
+	padding-left: 5px;
+	background-size: 20%;
+	background-position-y: 20%;
+	object-fit: cover;
+	object-position: center;
+	
+}
+
+.display{
+	color: white;
+	width: 100%;
+	padding: 10px 20px;
+	background-color: #333333;
+	border: 1px solid black;
+	font-size: 2em;
+}
+
+.judul{
+	font-size: 20px;
+	padding: 40px;
+	background-color: #BC8F8F;
+	text-align: center;
+	color: purple;
+	border-radius: 10px;
+}
+
+main {
+	padding: 20px;
+	overflow: auto;
+}
+
+#konten{
+	float: left;
+	width: 75%;
+}
+
+aside{
+	float: right;
+	width: 25%;
+	padding-left: 20px;
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+	#konten,
+	aside{
+		width: 100%;
+		padding: 0;
+	}
+
+	.button{
+		padding: 10px
+	}
+}
+
+* {
+   box-sizing: border-box;
+}
+
+.all-container{
+	display:-webkit-box;
+	display:-webkit-flex;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient:vertical;
+	-webkit-box-direction:normal;
+	-webkit-flex-direction:column;
+	-ms-flex-direction:column;
+	flex-direction:column
+}
